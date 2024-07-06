@@ -1,7 +1,16 @@
+@use "../abstract/variables";
+
 body {
   max-width: 1440px;
+  background: variables.$off-black;
 
   p {
     font-size: 14px;
   }
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 60px;
 }

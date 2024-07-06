@@ -63,11 +63,83 @@ img {
   image-rendering: -webkit-optimize-contrast;
 }
 
+.card {
+  background: hsl(0, 0%, 12%);
+  width: 375px;
+  padding: 60px 40px;
+  border-radius: 15px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card-content .content-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-content .content-details img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.card-content .content-details .main-text {
+  padding: 20px 10px 5px 10px;
+}
+.card-content .content-details h1 {
+  font-size: 1.5rem;
+  font: 700;
+  color: hsl(0, 0%, 100%);
+}
+.card-content .content-details p {
+  padding-bottom: 20px;
+}
+.card-content .content-details .location-text {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+}
+.card-content .content-details .info-text {
+  color: hsl(0, 0%, 100%);
+  font-size: 0.875rem;
+}
+.card-content ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+.card-content li a {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 600;
+  display: inline-block;
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
 body {
   max-width: 1440px;
+  background: hsl(0, 0%, 8%);
 }
 body p {
   font-size: 14px;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */

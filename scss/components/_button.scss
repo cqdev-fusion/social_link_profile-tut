@@ -1,0 +1,17 @@
+@use "../abstract/variables";
+
+.btn {
+  font-weight: variables.$medium;
+  display: inline-block;
+  background: variables.$grey;
+  color: variables.$white;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+
+  &:hover {
+    background: variables.$green;
+    color: variables.$dark-grey;
+  }
+}
